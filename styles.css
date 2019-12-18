@@ -14,6 +14,9 @@ body {
     font-size: 1.2rem;
     color: white;
     min-height: 100vh;
+    min-width: 50vh;
+    width: auto !important;
+    width: 50vh;
 }
 
 .full-height-grow {
@@ -61,6 +64,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+ min-width: 50vh;
+    width: auto !important;
+    width: 50vh;
 }
 
 .main-header {
