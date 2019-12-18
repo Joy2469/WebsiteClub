@@ -204,7 +204,7 @@ body {
 
 
 .home-page-circle-1 {
-    position: fixed;
+    position: absolute;
     width: 25vw;
     height: 25vw;
     border-radius: 50%;
@@ -215,7 +215,7 @@ body {
 }
 
 .home-page-circle-2 {
-    position: fixed;
+    position: absolute;
     width: 25vw;
     height: 25vw;
     border-radius: 50%;
@@ -226,7 +226,7 @@ body {
 }
 
 .home-page-circle-3 {
-    position: fixed;
+    position: absolute;
     overflow: hidden;
     width: 45vw;
     height: 45vw;
@@ -238,7 +238,7 @@ body {
 .home-page-circle-3::before {
     content: '';
     transform: translate(40%, 40%);
-    position: fixed;
+    position: absolute;
     height: 100%;
     width: 100%;
     border-radius: 50%;
