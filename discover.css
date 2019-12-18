@@ -112,15 +112,19 @@
 .person:nth-child(3) .person-badge:after {
     background: linear-gradient(to top, #5AB 0%, #EEE 100%);
 }
+
 .person:nth-child(4) .person-badge:after {
     background: linear-gradient(to top, #5AB 0%, #EEE 100%);
 }
+
 .person:nth-child(5) .person-badge:after {
     background: linear-gradient(to top, #F88 0%, #EEE 100%);
 }
+
 .person:nth-child(6) .person-badge:after {
     background: linear-gradient(to top, #F88 0%, #EEE 100%);
 }
+
 .person:nth-child(7) .person-badge:after {
     background: linear-gradient(to top, #F88 0%, #EEE 100%);
 }
