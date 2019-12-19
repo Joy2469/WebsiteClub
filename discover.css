@@ -17,6 +17,14 @@
     background-position: right;
 }
 
+.discover-main-section .call-to-action {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1rem;
+    align-self: center;
+}
+
 .icon-section {
     display: flex;
 }
@@ -58,6 +66,7 @@
 .team_description {
     margin-top: 200px;
     margin-bottom: 50px;
+
 }
 
 
@@ -165,7 +174,7 @@
 }
 
 .person p {
-    font-size: 1.0rem
+    font-size: 1.0rem;
 }
 
 strong {
