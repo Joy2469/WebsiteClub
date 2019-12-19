@@ -104,3 +104,16 @@
   border-radius: 50%;
   background-color: rgb(52, 87, 178, .1);
 }
+
+/*button*/
+.butoon_join{
+    position: absolute;
+    margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+    
+}
+
+.column{
+    flex-direction: column;
+}
