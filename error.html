@@ -16,23 +16,13 @@
     
     <script src="https://kit.fontawesome.com/6e7b45b5ac.js" crossorigin="anonymous"></script>
     <title>Developer Student Club(DSC) UT Dallas</title>
-
-    <!-- Mailchimp pop up sihn up sheet -->
-    <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
-
-    <script type="text/javascript">
-        window.dojoRequire(["mojo/signup-forms/Loader"], function(L) {
-            L.start({
-                "baseUrl": "mc.us5.list-manage.com",
-                "uuid": "f446caaecddb499f6c699babb",
-                "lid": "c81d8e7891",
-                "uniqueMethods": true
-            })
-        })
-
-    </script>
 </head>
-
+<script type="text/javascript">
+    if (screen.width > 812) {
+        document.location = "index.html";
+    }
+    
+</script>
 
 
 <body class="container full-height-grow">
